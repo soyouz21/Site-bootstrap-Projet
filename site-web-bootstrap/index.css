@@ -1,0 +1,44 @@
+body {
+    background-color: AFD464;
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+
+
+.row {
+    text-align: center;
+    margin: 90px;
+}
+h2{
+    text-decoration: underline;
+    text-shadow: 
+    color: blue;
+}
+
+li {
+    width: 250px;
+    display: inline-block;
+    display: inherit;
+}
+
+.list-group {
+   
+    list-style-position: inside;
+    width: 15px;
+    height: 10px;
+}
